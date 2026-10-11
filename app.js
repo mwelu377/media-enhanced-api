@@ -8,7 +8,7 @@ const articleRoutes = require('./src/routes/articleRoutes');
 
 app.use(express.json());
 app.get('/', (req, res) => {
-  res.send('Welcome to My Blog API');
+  res.send('Welcome to My Media-Enhanced API');
 });
 
 app.use('/articles', articleRoutes);
