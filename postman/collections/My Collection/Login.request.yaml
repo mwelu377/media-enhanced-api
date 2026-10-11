@@ -1,0 +1,16 @@
+$kind: http-request
+url: https://blog-api-authentication-and-ownership.onrender.com/auth/login
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"mercymwelu2022@gmail.com\",\r
+
+    \  \"password\": \"MercyTest123!\"\r
+
+    }"
+auth:
+  type: noauth
+settings: {}
+order: 7000

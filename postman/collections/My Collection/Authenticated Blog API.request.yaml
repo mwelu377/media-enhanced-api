@@ -1,0 +1,18 @@
+$kind: http-request
+url: https://blog-api-authentication-and-ownership.onrender.com/articles
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"mercymwelu2022@gmail.com\",\r
+
+    \  \"password\": \"MercyTest123!\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{auth_secret_014l}}"
+settings: {}
+order: 6000

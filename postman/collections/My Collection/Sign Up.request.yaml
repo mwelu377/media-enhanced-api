@@ -1,0 +1,15 @@
+$kind: http-request
+url: https://blog-api-authentication-and-ownership.onrender.com/auth/signup
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "name": "Mercy",
+      "email": "mercymwelu_unique_12345@gmail.com",
+      "password": "MercyTest123!"
+    }
+auth:
+  type: noauth
+settings: {}
+order: 8000
